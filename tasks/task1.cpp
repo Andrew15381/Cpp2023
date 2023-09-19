@@ -48,7 +48,7 @@ constexpr int Det(const std::array<std::array<int, N>, N>& matrix) {
 }
 
 int main() {
-    constexpr std::array<std::array<int, 2>, 2> matrix = {{
+    constexpr std::array<std::array<int, 3>, 3> matrix = {{
                                                                   {0, 1, 2},
                                                                   {1, 2, 3},
                                                                   {2, 3, 7}
